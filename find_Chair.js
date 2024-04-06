@@ -18,5 +18,5 @@ function getReqChair_fromEachRoom(rooms, requiredChairs) {
 }
 
 const meeting_rooms = [['XXX', 5], ['XXXXX', 6], ['XXXXXX', 9], ['XXX', 5], ['XXX', 3], ['XXX', 5]]
-const required_chairs = 12;
+const required_chairs = 8;
 console.log(getReqChair_fromEachRoom(meeting_rooms, required_chairs));
